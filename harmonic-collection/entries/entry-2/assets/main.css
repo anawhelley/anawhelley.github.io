@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 80px;
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+h1 {
+  color: #F8F0E3;
+}
+img.cipe {
+  width: 40%;
+  height: auto;
+}
+img.cipe {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+}

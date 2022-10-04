@@ -1,0 +1,89 @@
+body {
+  background-color: #e5cdca;
+}
+p.top {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+p.left {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 400px;
+  margin-left: 305px;
+}
+p.right {
+  margin-top: -244px;
+  margin-bottom: 0px;
+  margin-right: 305px;
+  margin-left: 700px;
+}
+p.base {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+p.mid {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+p.last {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+p.note {
+  margin-top: 0px;
+  margin-bottom: 200px;
+  margin-right: 50px;
+}
+p.top {
+  text-align: justify;
+}
+p.top {
+  text-align: center;
+}
+p.right {
+  text-align: right;
+}
+p.base {
+  text-align: justify;
+}
+p.base {
+  text-align: center;
+}
+p.mid {
+  text-align: justify;
+}
+p.mid {
+  text-align: center;
+}
+p.last {
+  text-align: center;
+}
+p.note {
+  text-align: right;
+}
+p {
+  line-height: 0.9;
+}
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
