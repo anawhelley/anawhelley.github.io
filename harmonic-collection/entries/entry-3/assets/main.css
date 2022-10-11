@@ -25,7 +25,6 @@ h1 {
 .a {
   text-align: left;
 }
-
 .a {
   font-size: 50px;
 }
@@ -177,23 +176,23 @@ height: 22px;
 }
 .rectangle14 {
 position: absolute;
-width: 430px;
+width: 620px;
 height: 20px;
 background: #000000;
 transform: rotate(-90deg);
 top: auto;
-bottom: -1215px;
-left: 95px;
+bottom: -1230px;
+left: -5px;
 right: auto;
 z-index: 100;
 }
 .rectangle15 {
 position: absolute;
 width: 300px;
-height: 440px;
+height: 600px;
 background: #FF0000;
 top: auto;
-bottom: -1420px;
+bottom: -1530px;
 left: 0px;
 right: auto;
 }
@@ -226,4 +225,7 @@ top: 250px;
 bottom: auto;
 left: auto;
 right: 127px;
+}
+.link {
+
 }
