@@ -1,0 +1,12 @@
+body {
+  background-color: #EF6944;
+  background-image: linear-gradient(#EF6944, #E6232B);
+}
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+}
+.content {
+  text-align: right;
+}

@@ -53,17 +53,19 @@ h1 {
 .rectangle1 {
   position: absolute;
   width: 20px;
-  height: 100vw;
+  height: 2355px;
   background: #000000;
+  top: 0px;
   right: auto;
   left: 90%;
   z-index: 100;
 }
 .rectangle2 {
   position: absolute;
-  width: 21px;
-  height: 100vw;
+  width: 20px;
+  height: 2355px;
   background: #000000;
+  top: 0px;
   right: auto;
   left: 70%;
   z-index: 100;
@@ -71,8 +73,9 @@ h1 {
 .rectangle3 {
   position: absolute;
   width: 20px;
-  height: 100vw;
+  height: 2355px;
   background: #000000;
+  top: 0px;
   right: auto;
   left: 65%;
   z-index: 100;
@@ -93,7 +96,7 @@ h1 {
   width: 694px;
   height: 22px;
   top: 600px;
-  right: 505px;
+  right: 500px;
   left: auto;
 }
 .rectangle6 {
@@ -176,13 +179,13 @@ height: 22px;
 }
 .rectangle14 {
 position: absolute;
-width: 620px;
+width: 635px;
 height: 20px;
 background: #000000;
 transform: rotate(-90deg);
 top: auto;
-bottom: -1230px;
-left: -5px;
+bottom: -1225px;
+left: -8px;
 right: auto;
 z-index: 100;
 }
