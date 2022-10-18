@@ -1,0 +1,96 @@
+body {
+  background-color: #904419;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  z-index: 0px;
+  text-align: center;
+  font-family: 'Girassol';
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 298px;
+  color: #000000;
+  margin-top: 0px;
+}
+div {
+  margin-top: 1800px;
+  margin-left: 110px;
+  margin-right: auto;
+  z-index: 90px;
+  position: absolute;
+  width: 480px;
+  height: 1300px;
+  background: #B59667;
+}
+p {
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: -40px;
+  text-align: left;
+  position: absolute;
+  width: 376px;
+  height: 1292px;
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 25px;
+  color: #000000;
+  white-space: normal;
+}
+.ah {
+  z-index: 100;
+  position: absolute;
+  width: 725px;
+  height: 741px;
+  margin-left: 800px;
+  margin-top: 942px;
+}
+.moon {
+  margin-left: 600px;
+  margin-top: 2000px;
+  z-index: 100;
+  position: absolute;
+  width: 1152px;
+  height: 648px;
+}
+.man {
+  margin-top: 310px;
+  margin-left: -200px;
+  margin-right: auto;
+  z-index: 100;
+  position: absolute;
+  width: 1239px;
+  height: 1536px;
+}
+
+h6 {
+  position: absolute;
+  width: 259px;
+  height: 48px;
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 25px;
+  color: #000000;
+  margin-top: 3250px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  body {
+    background-color: #154c79;
+}
+@media (max-width: 768px) {
+  div {
+    background-color:  pink;
+}
+@media (max-width: 768px) {
+  h1 {
+    color: white;
+}
