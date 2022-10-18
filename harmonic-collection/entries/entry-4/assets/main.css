@@ -93,4 +93,34 @@ h6 {
 @media (max-width: 768px) {
   h1 {
     color: white;
+    font-size: 150px;
+    text-align: left;
+}
+@media (max-width: 480px) {
+  body {
+    background-color: #black;
+}
+@media (max-width: 480px) {
+  div {
+    background-color:  white;
+}
+@media (max-width: 480px) {
+  h1 {
+    color: red;
+    font-size: 100px;
+    text-align: center;
+}
+@media (max-width: 320px) {
+  body {
+    background-color: #yellow;
+}
+@media (max-width: 320px) {
+  div {
+    background-color:  orange;
+}
+@media (max-width: 320px) {
+  h1 {
+    color: black;
+    font-size: 150px;
+    text-align: right;
 }
