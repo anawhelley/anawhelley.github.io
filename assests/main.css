@@ -1,37 +1,127 @@
-
 body {
-  background-color: #FDFCFB;
+  font-family: 'Merriweather', serif;
 }
-h1 {
-  margin-top: 50px;
-  margin-bottom: 0px;
-  margin-left: 25px;
+
+.tl {
+  position: relative;
+  width: 95%;
+  height: 0px;
+  border: 2px
+  solid #000000;
+  margin: auto;
 }
-h3 {
-  margin-top: 5px;
-  margin-bottom: 200px;
-  margin-left: 30px;
+
+.top {
+  margin: auto;
 }
-h1 {
-  font-family: 'Playfair Display', serif;
-}
-h1 {
-  font-size: 80px;
-}
-H1 {
-  line-height: 1;
-}
-h1 {
-  letter-spacing: 9px;
-}
+
 h2 {
-  font-family: 'Playfair Display', serif;
+  display: inline;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  margin-left: 18.5%;
+  margin-right: 17.5%;
 }
-h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 170px;
+
+h1 {
+  font-weight: 400;
+  font-size: 86px;
+  z-index: 100;
+}
+
+.hide {
+  display: none;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0;
+}
+
+.header:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.image {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 35%;
+  margin-top: 10%;
+}
+
+.cat {
+  margin-top: 0%;
+}
+
+.h {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header {
+  width: 70%;
+  align: center;
+  margin: auto;
 }
 
 
-</style>
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

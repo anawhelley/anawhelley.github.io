@@ -2,23 +2,101 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="assests/main.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ana Whelley</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Merriweather&family=PT+Sans&family=Silkscreen:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>EDITORIAL <br> DESIGN </h1>
-    <h3>an exploration</h3>
-    <hr style="width:70%">
-    <a href="exercises/index.html"><h2>EXERCISES</h2></a>
-    <hr style="width:70%">
-    <a href="harmonic-collection/index.html"><h2>HARMONIC COLLECTION</h2></a>
-    <hr style="width:70%">
 
+<div class="tl"></div>
+  <div class="top">
+    <a id="right" href="exercises/index.html"><h2>EXERCISES</h2></a>
+    <a id="left" href="harmonic-collection/index.html"><h2>ABOUT COLLECTION</h2></a>
+  </div>
+<div class="tl"></div>
 
+<div class="title">
+    <h1 class="header"> ART MOVEMENTS </h1>
+    <h3 class="hide">through code</h3>
+</div>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="assests/imgs/nouvc.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="assests/imgs/bauc.png" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="assests/imgs/imc.png" style="width:100%">
+  </div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+<div class="tl"></div>
+
+<div class="h">
+  <img class="image" src="assests/imgs/cpc.png">
+  <a href="harmonic-collection/entries/entry-1/index.html"><h1 class="cat"> CONCRETE POETRY </h1>
+</div>
+
+<div class="tl"></div>
+
+<div class="h">
+  <img class="image" src="assests/imgs/myn.png">
+  <a href="harmonic-collection/entries/entry-2/index.html"><h1 class="cat"> NOUVEAU </h1>
+</div>
+
+<div class="tl"></div>
+
+<div class="h">
+  <img class="image" src="assests/imgs/myb.png">
+  <a href="harmonic-collection/entries/entry-3/index.html"><h1 class="cat"> BAUHAUS </h1>
+</div>
+
+<div class="tl"></div>
+
+<div class="h">
+  <img class="image" src="assests/imgs/myn.png">
+  <a href="harmonic-collection/entries/entry-4/index.html"><h1 class="cat"> DADA ART </h1>
+</div>
+
+<div class="tl"></div>
+
+<div class="h">
+  <img class="image" src="assests/imgs/myim.png">
+  <a href="harmonic-collection/entries/entry-5/index.html"><h1 class="cat"> IMPRESSIONISM </h1>
+</div>
 
 </body>
 </html>

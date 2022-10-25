@@ -1,5 +1,18 @@
-<!DOCTYPE html>
-<head>
-</head>
-<style>
-</style>
+body {
+  background-color: pink;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 86px;
+  text-align: center;
+  margin: 3%;
+}
+
+.word {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  margin: 5%;
+}

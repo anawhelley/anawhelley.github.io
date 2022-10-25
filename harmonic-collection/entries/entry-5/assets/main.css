@@ -1,0 +1,177 @@
+body {
+  background-color: #F8F5F5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 2em;
+  background: #000;
+  color: black;
+  min-height: 10vh;
+  text-align: center;
+  background-color: #AEA3B4;
+}
+
+ul, ol {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1em;
+  margin: 0 auto;
+  max-width: 64em;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 0;
+  font-size: 15px;
+}
+
+ul.weekdays {
+  margin-bottom: 1em;
+}
+
+ul.weekdays li {
+  height: 4vw;
+}
+
+ol.day-grid li {
+  background-color: #eaeaea;
+  border: 1px solid #eaeaea;
+  height: 12vw;
+  max-height: 125px;
+}
+
+ul.weekdays abbr[title] {
+  border: none;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+ol.day-grid li:nth-child(1),
+ol.day-grid li:nth-child(2),
+ol.day-grid li:nth-child(3),
+ol.day-grid li:nth-child(34),
+ol.day-grid li:nth-child(35) {
+  background-color: #F8F5F5;
+}
+
+#a1 {
+  background-color: #F3B59A;
+}
+#a2 {
+  background-color: #D4A998;
+}
+#a3 {
+  background-color: #C69D8C;
+}
+#a4 {
+  background-color: #978A7D;
+}
+#a5 {
+  background-color: #F9EEAD;
+}
+#a6 {
+  background-color: #AEA789;
+}
+#a7 {
+  background-color: #DCCF9D;
+}
+#a8 {
+  background-color: #D4D5A8;
+}
+#a9 {
+  background-color: #B9B791;
+}
+#a10 {
+  background-color: #999557;
+}
+#a11 {
+  background-color: #95994D;
+}
+#a12 {
+  background-color: #DFE6E6;
+}
+#a13 {
+  background-color: #94AD8C;
+}
+#a14 {
+  background-color: #7C9081;
+}
+#a15 {
+  background-color: #687E71;
+}
+#a16 {
+  background-color: #828B70;
+}
+#a17 {
+  background-color: #80845D;
+}
+#a18 {
+  background-color: #879540;
+}
+#a19 {
+  background-color: #CED9EE;
+}
+#a20 {
+  background-color: #A9BBC2;
+}
+#a21 {
+  background-color: #A7B0BF;
+}
+#a22 {
+  background-color: #A4ADBA;
+}
+#a23 {
+  background-color: #719FAE;
+}
+#a24 {
+  background-color: #214079;
+}
+#a25 {
+  background-color: #363A56;
+}
+#a26 {
+  background-color: #252E35;
+}
+#a27 {
+  background-color: #1B2221;
+}
+#a28 {
+  background-color: #151E26;
+}
+#a29 {
+  background-color: #18313E;
+}
+#a30 {
+  background-color: #2E2E42;
+}
+
+#one {
+  display: none;
+}
+#a1:hover + #one {
+  display: block;
+}
+
+@media all and (max-width: 800px) {
+  ul, ol {
+    grid-gap: .25em;
+  }
+
+  ul.weekdays li {
+    font-size: 0;
+  }
+
+  ul.weekdays > li abbr:after {
+      content: attr(title);
+      font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+    }
+}
