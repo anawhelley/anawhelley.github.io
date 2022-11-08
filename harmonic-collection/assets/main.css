@@ -1,18 +1,91 @@
 body {
-  background-color: pink;
+  font-family: 'Merriweather', serif;
+}
+
+.tl {
+  position: relative;
+  width: 95%;
+  height: 0px;
+  border: 2px
+  solid #000000;
+  margin: auto;
+}
+
+.top {
+  margin: auto;
+}
+
+h2 {
+  display: inline;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  margin-left: 18.5%;
+  margin-right: 17.5%;
 }
 
 h1 {
-  font-family: 'Merriweather', serif;
   font-weight: 400;
   font-size: 86px;
-  text-align: center;
-  margin: 3%;
+  z-index: 100;
 }
 
-.word {
+.hide {
+  display: none;
   font-family: 'Merriweather', sans-serif;
   font-weight: 400;
-  font-size: 35px;
-  margin: 5%;
+  font-size: 50px;
+  margin: 0;
+}
+
+.header:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.image {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 35%;
+  margin-top: 10%;
+}
+
+.cat {
+  margin-top: 0%;
+}
+
+.h {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header {
+  width: 70%;
+  align: center;
+  margin: auto;
 }
